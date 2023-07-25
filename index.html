@@ -12,13 +12,16 @@
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <script src="js/myJS.js"></script>
+
+<!--    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>-->
 </head>
 
 <body>
     <div id="mobile-menu-open" class="shadow-large">
         <i class="fa fa-bars" aria-hidden="true"></i>
     </div>
-    <!-- End #mobile-menu-toggle -->
+
     <header>
         <div id="mobile-menu-close">
             <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
@@ -36,23 +39,16 @@
             <li>
                 <a href="#projects">Projects</a>
             </li>
-            <li>
-                <a href="#skills">Skills</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
         </ul>
     </header>
-    <!-- End header -->
+
 
     <div id="lead">
         <div id="lead-content">
             <h1>Mohammad-Ali Amiri</h1>
-            <h2>Electrical Engineer</h2>
-            <a href="#" class="btn-rounded-white">Download Resume</a>
+            <h2>Electrical Engineer and Data Dcientist</h2>
+            <a href="https://drive.google.com/file/d/10vGQn1MykrLc1NYPN1TPygrP0lH_sje_/view?usp=sharing" class="btn-rounded-white">Download Resume</a>
         </div>
-        <!-- End #lead-content -->
 
         <div id="lead-overlay"></div>
 
@@ -61,25 +57,38 @@
                 <i class="fa fa-chevron-down" aria-hidden="true"></i>
             </span>
         </div>
-        <!-- End #lead-down -->
     </div>
-    <!-- End #lead -->
 
     <div id="about">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
+                <div class="col-md-12 mx-auto" style="text-align: center">
+                    <h2 class="heading" style="text-align: center">About Me</h2>
                 </div>
-                <div class="col-md-8">
-                    <p>
-                        I am student currently blah blah blah
+                <div class="col-md-12">
+                    <div class="col-md-4">
+                        <img src="images/about-me.jpg" width="350">
+                    </div>
+                    <div class="col-md-8">
+                        <p style="text-align: justify;">
+                        Welcome to my personal website! I'm MohammadAli, but you can call me Mandal. I'm a passionate data scientist with a diverse range of interests and a strong background in engineering. From an early age, I was captivated by the world of science, and my enthusiasm led me to delve into influential books like Kleppner mechanics. While my peers were engrossed in other hobbies during my adolescence, I found myself deeply immersed in engineering and university textbooks such as Silverman Mathematica and Griffith Electrodynamics.
+
+Throughout my career, I have gained experience in diverse fields, including embedded systems, data science, power electronics, and control theories. This multidisciplinary background has equipped me with a unique skill set, allowing me to approach problems from different perspectives and find innovative solutions. Ultimately, it was the dynamic and ever-evolving nature of data science that captured my attention and inspired me to pursue it as a professional path.
+
+As an "A_ENFJ" according to the Myers-Briggs Type Indicator (MBTI), my empathetic and intuitive nature serves as a driving force behind my work in data science. I believe in understanding the human element behind the data and harnessing it to drive positive change. Throughout my career, I have gained valuable experience in diverse fields, including embedded systems, data science, power electronics, and control theories.
+
+While my professional focus lies in data science, my interests extend beyond the technical realm. I have cultivated a deep appreciation for psychology and economics, actively exploring thought-provoking books by influential figures such as Freud. Additionally, I have delved into the intricacies of macroeconomics and microeconomics, enhancing my understanding of economic systems and their interplay with data.
+
+Known for my unwavering work ethic, I am dedicated and driven to make the most of every opportunity that comes my way. I thrive on challenges and firmly believe that hard work and perseverance are key ingredients for achieving meaningful results. However, my interests and passions extend beyond the world of data science and engineering. I find solace and inspiration in the captivating realms of movies and novels and my love for movies led me to explore film editing as a creative activity. Some of my favorite writers include the likes of Dostoevsky, Tolstoy, Kafka, Shakespeare, Ibsen, and Chekhov. Their works have left a profound impact on my perspective, deepening my understanding of the human condition and fueling my creativity and imagination.
+
+Thank you for taking the time to visit my website. I am excited to connect with fellow enthusiasts, collaborate on exciting projects, and make a positive impact in the field of data science. Together, we can explore the vast possibilities and potential that lie within this ever-evolving discipline.
                     </p>
+
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- End #about -->
 
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
@@ -100,41 +109,42 @@
                 </p>
             </div>
 
+            <div data-date="2020">
+                <h3>Self-Employed</h3>
+                <h4>Video Editing</h4>
+                <p>
+                    <a href="https://youtu.be/1zGm-cJKX0U">
+                        Koodakan Fereshte Hastand (Kids Are of the Angels):
+                    </a>
+                </p>
+                <p>
+                    <a href="https://youtu.be/ONpH2OCAtBQ">
+                        A Quite Place Story Mix
+                    </a>
+                </p>
+                <p>
+                    <a href="https://youtu.be/3Lu5YJG70KY">
+                        Five Feet Apart - Adele - Somone Like You
+                    </a>
+                </p>
+            </div>
+
         </div>
     </div>
-    <!-- End #experience -->
 
     <div id="education">
         <h2 class="heading">Education</h2>
-        <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-            </p>
-        </div>
-        <!-- End .education-block -->
+
 
         <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <ul>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-            </ul>
+            <h3>Iran University of Science and Technology</h3>
+            <span class="education-date">Sept 2018 - Sept 2022</span>
+            <h4>Bachelor of Science in Electrical-Control Engineering</h4>
+            <p style="text-align: justify">
+                    Graduating from IUST, a prestigious institution, has equipped me with a strong academic foundation and practical skills in control systems. The admission process, known as the Konkur exam, was highly competitive, and I am honored to have achieved a position in the top 0.01% of participants. IUST offers distinct advantages such as a rigorous curriculum, exceptional faculty members, state-of-the-art facilities, and a focus on research and innovation. These advantages have provided me with comprehensive theoretical knowledge, hands-on experience, and the ability to tackle real-world challenges in the field of electrical engineering control.
+            </p>
         </div>
-        <!-- End .education-block -->
     </div>
-    <!-- End #education -->
 
     <div id="projects" class="background-alt">
         <h2 class="heading">Projects</h2>
@@ -144,17 +154,18 @@
                     <div class="project-image">
                         <img src="images/project.jpg" />
                     </div>
-                    <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
-                        <a href="#">View Project</a>
+                        <h3>Project Title Goes Here</h3>
+                        <div style="height: 150px; overflow: auto; text-align: justify; padding: 15px">
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            </p>
+                        </div>
+                        <br>
+                        <a href="#">Link to Project Video</a> <br>
+                        <a href="#">Link to Project Source Code</a>
                     </div>
-                    <!-- End .project-info -->
                 </div>
-                <!-- End .project -->
 
                 <div class="project shadow-large">
                     <div class="project-image">
@@ -162,73 +173,235 @@
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
-                        <a href="#">View Project</a>
+                        <h3>Spell Checker</h3>
+                        <div style="height: 150px; overflow: auto; text-align: justify; padding: 15px">
+                            <p>
+                                I participated in a competition organized by Torob.com for their recommended system project, where I had the opportunity to contribute to the design of a spell checker. The objective of the overall project was to optimize the arrangement of products shown to users, ensuring they click on the first products presented to them. In addition to this goal, we faced the challenge of the "cold start" assumption, meaning we couldn't rely on the user's search history.
+
+    Throughout the competition, we encountered various obstacles, including query searches with spelling mistakes. Recognizing the significance of accurate matching, I took the initiative to design and implement a spell checker. This spell checker played a crucial role in improving the accuracy and relevance of the search results by identifying and suggesting corrections for misspelled search queries.
+
+    Moreover, we confronted the challenge of processing a large amount of data within an optimized timeframe. To address this, I focused on developing a suitable topology and refining my code to reduce processing time. Although one particular code required 49 hours to process the data, I continuously worked on enhancing its efficiency.
+
+    In addition to the spell checker and data processing optimization, we integrated product images into our recommended system. By calculating the proportion of clicks to the number of times a product was shown, especially for popular items, we aimed to predict these proportions for all products using an artificial neural network (ANN) system. This approach allowed us to overcome the bias problem inherent in earlier algorithms, where the results of clicked products were directly influenced by the products shown.
+
+    While we made significant progress in the development of the recommended system, including the integration of a spell checker, time constraints limited our ability to achieve optimal results in the ANN modeling section of the project.
+                            </p>
+                        </div>
+                        <br>
+                        <a href="https://github.com/mohammadaliamiri1379/the-arrangement-of-products">Products Arrangements</a> <br>
+                        <a href="https://github.com/mohammadaliamiri1379/Spell-checker">Spell Checker</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
-                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                            <img src="images/project03.jpg" width="300" style="padding-top: 75px; padding-bottom: 75px;"/>
+                    </div>
+                    <div class="project-info">
+                        <h3>Position Controller for ZAPI Driver</h3>
+                        <div style="height: 175px; overflow: auto; text-align: justify; padding: 15px">
+                            <p>
+                                During my internship at Yektafan Company, I had the opportunity to work on a remarkable project involving the design and implementation of a position controller for the ZAPI driver using Bluetooth Low Energy (BLE) technology. The outcome of this project was a product that allowed precise control of an industrial motor's angular position.
+
+In this system, the angular position of an industrial motor was obtained through a potentiometer, providing accurate feedback. By utilizing a Proportional-Integral (PI) controller, the motor's position could be precisely regulated to the desired user-defined position. The PI controller parameters were dynamically provided via a BLE system and stored in the Electrically Erasable Programmable Read-Only Memory (EEPROM) for future reference.
+
+One of the significant advantages of this system was its versatility. It offered users the flexibility to modify various parameters using their smartphones via Bluetooth connectivity. This capability enhanced the overall user experience and facilitated seamless adjustments to suit specific requirements.
+
+The noteworthy achievement of this project was the successful implementation of a comprehensive system capable of controlling the position of any DC industrial motor with the ZAPI driver. The system exhibited exceptional compatibility, supporting a wide range of supply voltages ranging from above 20 volts to below 80 volts. This versatility opened up numerous possibilities for integration into diverse industrial settings.
+
+To witness the product in action, you can view the video demonstration [here] (insert video link).
+                            </p>
+                        </div>
+                        <br>
+                        <a href="https://www.linkedin.com/posts/mohammad-ali-amiri-3bb5b9207_design-and-implementation-of-a-bluetooth-activity-6852970324355493888-ZvM_?utm_source=share&utm_medium=member_desktop">Position Controller for ZAPI Driver</a> <br>
+                        <a href="https://github.com/mohammadaliamiri1379/Position-Controll-with-nrf52832-">Source Code</a> <br>
+                    </div>
+                </div>
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                            <img src="images/project.jpg" width="300" style="padding-top: 75px; padding-bottom: 75px;"/>
+                    </div>
+                    <div class="project-info">
+                        <h3>State and Parameter Estimation of DC/DC Converters Based on The Modified Nonlinear Model</h3>
+                        <div style="height: 175px; overflow: auto; text-align: justify; padding: 15px">
+                            <p>
+                                The DC/DC switching converters are designed for converting input direct current (DC) voltage to the desired DC voltage [1]. Many applications, such as dc motor drives, computers, and electronic devices, use switch mode power converters [2]. Throughout the years, scientists have suggested different types of modeling for switching systems. However, despite the extensive models like space state averaging [3]–[6], small signal [7], and large signal [8], These methods are only applicable to a smaller class of converters and cannot produce satisfactory results for resonant type converters, so they are only useful around to the operating point [6]. Most articles that worked on estimating states of DC/DC converters use averaged models of the system and neglect the ripple of the capacitor voltage [9]–[13]. So, the deficiency of an accurate model that can explain both CCM and DCM mode is felt. It is apparent that the designed Kalman filter with the aforementioned models cannot estimate accurately and especially the output ripple in the steady state. For instance, [11], [13] assume that sampling frequency is equal to switching frequency, and this assumption causes loose of information between switching frequencies. Considering both CCM and DCM modes is essential for analyzing and causes a wide range of resistance value estimation. In [11], [14] author overlooks the DCM mode of the boost converter, so the controller cannot operate in a wide range of load resistors. Fig. 1. Ideal model of the Buck converter This study uses differential equations to describe both modes and estimate the inductor current, capacitor voltage, and resistance value in a wide load range. The novel advantage of these equations is that they can handle both CCM and DCM mode properly. It also presents an observer extended Kalman filter for monitoring capacitor voltage, inductor current, and resistor value by measuring merely the capacitor voltage in a noisy environment. In this article, by using a new approach for modeling the DC/DC converters and designing an observer based on Extended Kalman Filter, it is shown that the results for the buck, boost, and buck boost converters are satisfying.
+                            </p>
+                        </div>
+                        <br>
+                        <a href="#">Link 01</a> <br>
+                        <a href="#">Link 02</a> <br>
+                    </div>
+                </div>
+
+                <div class="project shadow-large">
+
+                    <div class="project-image">
+                        <div style="padding-top: 50px;">
+                            <div class="slideshow-container" >
+
+                                <div class="mySlides fade">
+                                    <img src="images/project04_01.jpg" width="300" height="275">
+                                    <div class="numbertext">1 / 3</div>
+                                </div>
+
+                                <div class="mySlides fade" style="display: none">
+                                    <img src="images/project04_02.jpg" width="300" height="275" >
+                                    <div class="numbertext">2 / 3</div>
+                                </div>
+
+                                <div class="mySlides fade" style="display: none">
+                                    <img src="images/project04_03.jpg" width="300" height="275">
+                                    <div class="numbertext">3 / 3</div>
+                                </div>
+
+                                <a class="prev" onclick="plusSlides(-1)" style="cursor: pointer">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1)" style="cursor: pointer">&#10095;</a>
+                            </div>
+                            <br>
+
+                            <div style="text-align:center">
+                                <span class="dot" onclick="currentSlide(1)"></span>
+                                <span class="dot" onclick="currentSlide(2)"></span>
+                                <span class="dot" onclick="currentSlide(3)"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Final Thesis</h3>
+                        <div style="height: 200px; overflow: auto; text-align: justify; padding: 15px">
+                            <p>
+                                As the culmination of my Bachelor's degree, my final thesis involved the design, implementation, and control of a current source with adjustable amplitude, bandwidth, and frequency. This project was conducted under the supervision of Dr. Farrokhi, who provided valuable guidance and support throughout the process.
+
+The primary objective of this project was to develop a current (or voltage) source capable of closely following a user-defined curve. With an operating frequency of 10 Hz, we utilized an Arduino Due microcontroller, programmed using MATLAB Simulink, to achieve the desired control and precision.
+
+One of the significant challenges encountered during the project was the presence of process and measurement noise, which could potentially affect the accuracy of the output. To address this issue, we designed a suitable digital filter, specifically a FIR Kaiser filter, which effectively reduced the impact of noise and ensured reliable performance.
+
+By successfully integrating the designed current source, implementing control algorithms, and mitigating noise-related issues, this project demonstrated the effectiveness of our approach in achieving precise and adjustable current waveforms. This work not only provided a valuable opportunity for practical application of theoretical knowledge but also deepened my understanding of electronic systems, control theory, and digital signal processing.
+                            </p>
+                        </div>
+                        <br>
+                        <a href="https://www.linkedin.com/posts/">Link to Project Video</a> <br>
+                        <a href="https://github.com/mohammadaliamiri1379/">Source Code</a> <br>
+                    </div>
+                </div>
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                            <img src="images/project.jpg" width="300" style="padding-top: 75px; padding-bottom: 75px;"/>
+                    </div>
+                    <div class="project-info">
+                        <h3>nRF52832 MicroController</h3>
+                        <div style="height: 175px; overflow: auto; text-align: justify; padding: 15px">
+                            <p>
+                                During my employment at Sepahbod Company, I was involved in a significant project centered around the development of an embedded system using the nRF52832 microcontroller. This project encompassed various tasks, including the setup of essential peripherals and the creation of libraries for Real-Time Clock (RTC), Electrically Erasable Programmable Read-Only Memory (EEPROM), and power management functionalities.
+
+To facilitate the desired features, we utilized specific equipment, including the AT24C256, PCF8563, and tps65721. These components played crucial roles in the system's overall functionality and contributed to achieving the project's objectives.
+
+Throughout the development process, we relied on the Mbed platform for coding. Leveraging the Mbed platform provided us with a robust and efficient framework for writing code and implementing the required functionalities in a streamlined manner.
+
+Working on this embedded system project at Sepahbod Company provided me.
+                            </p>
+                        </div>
+                        <br><br>
+                        <a href="https://youtube.com/">Link to Project Video</a> <br>
+                        <a href="https://github.com/mohammadaliamiri1379/Position-Controll-with-nrf52832-">Link to Project Source Code</a> <br>
+                    </div>
+                </div>
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                            <img src="images/Project06.gif" width="300" style="padding-top: 75px; padding-bottom: 75px;"/>
+                    </div>
+                    <div class="project-info">
+                        <h3>Distance-Balancer Mobile Robot</h3>
+                        <div style="height: 175px; overflow: auto; text-align: justify; padding: 15px">
+                            <p>
+                                Under the supervision of Dr. Ebadollahi, I worked on a fascinating robotic project called the Distance-Balancer Mobile Robot. The primary goal of this project was to design a robot capable of maintaining a fixed distance from an object. To achieve this, we employed various techniques, including denoising an ultrasonic sensor and implementing a PID (Proportional-Integral-Derivative) controller.
+
+By effectively denoising the ultrasonic sensor, we were able to accurately measure the distance between the robot and the object in its surroundings. This data served as the input for the PID controller, which enabled the robot to dynamically adjust its movements to maintain a consistent distance.
+
+To fine-tune the PID controller and ensure optimal performance, we utilized model identification techniques specific to the mobile robot. This involved analyzing the robot's behavior, collecting data, and deriving the appropriate PID parameters. The PID tuner functionality of MATLAB played a crucial role in this process, aiding us in finding the ideal set of parameters for the controller.
+                            </p>
+                        </div>
+                        <br>
+                        <a href="#">Link to Source Code</a> <br>
+                        <a href="https://youtu.be/J_GZugYicGY">Link to Project Video</a> <br>
+                    </div>
+                </div>
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                            <img src="images/p7.gif" width="300" style="padding-top: 75px; padding-bottom: 75px;"/>
+                    </div>
+                    <div class="project-info">
+                        <h3>Liquid Surface Height PID Controller</h3>
+                        <div style="height: 175px; overflow: auto; text-align: justify; padding: 15px">
+                            <p>
+                                The project focused on implementing a Liquid Surface Height Controller using a PID (Proportional-Integral-Derivative) approach. The system aimed to regulate and maintain a desired level of liquid in a container. To achieve this, an ultrasonic sensor was utilized to measure the liquid's level, which was then fed back into a closed-loop control system.
+
+By integrating the ultrasonic sensor into the setup, we were able to accurately capture real-time data on the liquid's height. This information served as crucial feedback for the closed-loop control system, allowing it to dynamically adjust and control the liquid's level.
+
+The implementation of the Liquid Surface Height Controller with PID not only showcased the power of feedback control systems but also highlighted the importance of precise sensing techniques. This project offered a practical solution for maintaining liquid levels in various applications, ensuring optimal performance and efficiency.
+                            </p>
+                        </div>
+                        <br>
+                        <a href="#">Link to Source Code</a> <br>
+                        <a href="https://youtu.be/s_VHK-zCemc">Video</a> <br>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <!-- End #projects -->
 
-    <div id="skills">
-        <h2 class="heading">Skills</h2>
-        <ul>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
-        </ul>
-    </div>
-    <!-- End #skills -->
 
-    <div id="contact">
-        <h2>Get in Touch</h2>
-        <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
+
+    <div id="education">
+        <h2 class="heading">Professional Development</h2>
+        <div class="education-block">
+            <h3>Psychology</h3>
+<!--            <span class="professional-development-date">Sept 2016 - Sept 2017</span>-->
+<!--            <h4>Bachelor of Science in Computer Science</h4>-->
+            <br><br>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+            </p>
         </div>
-        <!-- End #contact-form -->
+
+        <div class="education-block">
+            <h3>Economy</h3>
+<!--            <span class="professional-development-date">Sept 2016 - Sept 2017</span>-->
+<!--            <h4>Bachelor of Science in Computer Science</h4>-->
+            <br><br>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+            </p>
+        </div>
+
+        <div class="education-block">
+            <h3>Novels and Movies</h3>
+<!--            <span class="professional-development-date">Sept 2016 - Sept 2017</span>-->
+<!--            <h4>Bachelor of Science in Computer Science</h4>-->
+            <br><br>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+            </p>
+        </div>
+
+
     </div>
-    <!-- End #contact -->
+
+
+
 
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; <span id="current-year">2022</span> YOUR NAME
+                        Copyright &copy; <span id="current-year">2023</span> MohammadAli Amiri
                     </p>
                 </div>
                 <div class="col-sm-2 top">
@@ -239,29 +412,22 @@
                 <div class="col-sm-5 social">
                     <ul>
                         <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="https://github.com/mohammadaliamiri1379/my-website" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/mohammad-ali-amiri-3bb5b9207/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+
                         </li>
                         <li>
-                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                            <a href="https://www.goodreads.com/user/show/162622707-mandal" target="_blank"><i class='fab fa-goodreads-g'></i>
+                                <img src="images/goodreads.png" style="opacity: 0.5">
+                            </a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
     </footer>
-    <!-- End footer -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/scripts.min.js"></script>

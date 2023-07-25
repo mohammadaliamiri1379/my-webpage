@@ -587,6 +587,18 @@ footer {
     }
 }
 
+
+#professional-development {
+    padding: 50px 15px 20px 15px;
+    border-bottom: 1px solid $border;
+    text-align: center;
+
+    h2 {
+        color: $heading;
+        margin-bottom: 50px;
+    }
+}
+
 .education-block {
     max-width: 700px;
     margin: 0 auto 30px auto;
@@ -624,6 +636,42 @@ footer {
     }
 }
 
+.professional-development-block {
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+    padding: 15px;
+    border: 1px solid $border;
+    text-align: left;
+
+    h3 {
+        font-weight: 500;
+        float: left;
+        margin: 0;
+        color: $heading;
+    }
+
+    span {
+        color: $text;
+        float: right;
+    }
+
+    h4 {
+        color: $text;
+        clear: both;
+        font-weight: 500;
+        margin: 0 0 15px 0;
+    }
+
+    p, ul {
+        margin: 0;
+        color: $text;
+        font-size: 0.9em;
+    }
+
+    ul {
+        padding: 0 0 0 15px;
+    }
+}
 /*
     -------------------------------
     ----- 8. Project Styles -----
@@ -957,6 +1005,11 @@ footer {
             float: none;
         }
     }
+    .professional-development-block {
+        h3, span {
+            float: none;
+        }
+    }
 
     .project-image {
         display: none;
@@ -999,3 +1052,93 @@ footer {
     }
 
 }
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
